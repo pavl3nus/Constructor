@@ -10,11 +10,9 @@
 
 body {
     width: 1440px;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Gotham Pro Regular';
     justify-content: center;
-    display: flex;
-    padding: 40px;
 }
 
 .main-page {
@@ -124,4 +122,206 @@ a {
     font-size: 24px;
     font-weight: 700;
     margin-top: 30px;
+}
+
+.reg-submit-button {
+    width: 293px;
+    margin-bottom: 25px;
+}
+
+.page-header {
+    width: inherit;
+    box-sizing: border-box;
+    height: 59px;
+    background-color:#EDF7EE;
+    margin: 0;
+    padding: 0 150px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    display: block;
+    color: #000;
+}
+
+.profile-div {
+    margin-top: 8px;
+    display: grid;
+    width: 118px;
+    height: 42px;
+    grid-template-columns: 16px 1fr;
+    gap: 10px;
+    padding: 0 10px;
+    background-color: #CFF7D3;
+    border-radius: 8px;
+}
+
+.profile-link {
+    align-self: center;
+    display: block;
+    text-decoration: none;
+}
+
+.profile-img {
+    align-self: center;
+}
+
+.page-main {
+    width: 1440px;
+}
+
+.drafts {
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    column-gap: 33px ;
+    padding: 80px;
+    align-items: center;
+}
+
+.promo {
+    font-size: 36px;
+    width: 691px;
+    height: 300px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 46px;
+    background-image: url(/svg/ovals.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.promo p {
+    padding: 32px 49px 39px 53px;
+}
+
+.create-drafts {
+    width: 179px;
+    height: 70px;
+    background-color: #009951;
+    border: none;
+    border-radius: 100px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Gotham Pro Regular';
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second p {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
+    width: 568px;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+    margin-top: 86px;
+}
+
+.buttons-list {
+    margin-top: 120px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.drafts-button, .profile-button {
+    border-radius: 100px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    margin-right: 100px;
+    font-family: 'Gotham Pro Regular';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.page-footer {
+    width: 1430px;
+    padding: 15px 52px;
+    margin: 0;
+    background-color: #98E1BF;
+    box-sizing: border-box;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-link {
+    color: #000;
+    font-family: 'Gotham Pro Regular';
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    list-style: none;
+    gap: 166px;
+    justify-content: center;
+    margin-top: 104px;
+    margin-bottom: 298px;
+}
+
+.cards li {
+    width: 272px;
+    height: 303px;
+    box-shadow: 0 0 2px 2px lightgrey;
+}
+
+.card-main {
+    height: 189px;
+    background-color: #F5F6F5;
+}
+
+.card-footer {
+    height: 114px;
+    background-color: #B9D8BC;
+    justify-content: center;
+    display: flex;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 16px;
+}
+
+.create-button, .edit-button {
+    border: none;
+    height: 35px;
+    margin-top: 22px;
+    border-radius: 100px;
+    font-family: 'Gotham Pro Regular';
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.projects {
+    height: 835px;
+}
+
+.projects-header{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 72px;
 }
